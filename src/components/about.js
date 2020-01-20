@@ -36,7 +36,7 @@ class About extends React.Component {
 								Professional chefs practice mise en place to be
 								more organized and efficient in the kitchen. It
 								means to be prepared: from making a list before
-								shopping for ingredients, to having your
+								shopping for ingredients, to having those
 								ingredients prepped and ready to assemble the
 								meal.
 							</p>
@@ -71,8 +71,8 @@ class About extends React.Component {
 								mint, or no herbs at all. Avocado and tomato are
 								good additions, if you have them around and eat
 								the rolls fast (i.e., there should be no
-								leftovers). I've put crushed peanuts in the
-								rolls, too, but it didn't do anything for me.
+								leftovers). I included crushed peanuts in the
+								rolls once, but it didn't do anything for me.
 							</p>
 							<p>
 								The summer rolls I make are vegan, using tofu in
