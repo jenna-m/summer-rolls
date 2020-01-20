@@ -1,0 +1,265 @@
+$font: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+	Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+// Colors
+$white: #fff;
+$black: #000;
+$off-white: #f2f0eb;
+$dark-grey: #1b1d1e;
+$coral: #f26b6b;
+$mustard: #f2a057;
+$steel: #a4bfba;
+$deep-green: #274029;
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font;
+	font-size: 16px;
+	a {
+		text-decoration: underline;
+		color: $black;
+	}
+}
+
+.container {
+	width: 100%;
+	min-width: 100%;
+	padding: 150px 0 50px;
+}
+
+// Header (Navigation)
+header {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	.inner-header {
+		background-color: $off-white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80px;
+		nav {
+			a {
+				margin: 0 20px;
+				text-decoration: none;
+				font-size: 0.75rem;
+				font-weight: 700;
+				letter-spacing: 1.5px;
+				text-transform: uppercase;
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			a:hover {
+				color: $deep-green;
+			}
+		}
+	}
+}
+
+// Landing Section
+.landing {
+	padding: 100px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: 1.25px;
+		text-transform: uppercase;
+		line-height: 2rem;
+	}
+	h2 {
+		font-size: 1.75rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: lowercase;
+		line-height: 1rem;
+	}
+	h3 {
+		font-size: 1.25rem;
+		font-weight: 700;
+		letter-spacing: 0.75px;
+		text-transform: lowercase;
+		line-height: 0.5rem;
+	}
+	a {
+		color: $dark-grey;
+		text-decoration: underline;
+	}
+	span {
+		color: $steel;
+	}
+}
+
+// About Section
+.about {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	h1 {
+		color: $mustard;
+		font-size: 2.5rem;
+		font-weight: 700;
+		letter-spacing: 0.25rem;
+		text-transform: uppercase;
+	}
+	.about-card {
+		width: 60%;
+		padding-bottom: 40px;
+		h2 {
+			color: $dark-grey;
+			font-size: 1rem;
+			font-weight: 700;
+			letter-spacing: 0.15rem;
+			text-transform: uppercase;
+		}
+		p {
+			font-weight: 500;
+			font-size: 0.85em;
+			line-height: 1.25rem;
+		}
+	}
+}
+
+// Tools Section
+.tools {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	h1 {
+		padding-bottom: 50px;
+		color: $coral;
+		font-size: 2.5rem;
+		font-weight: 700;
+		letter-spacing: 0.25rem;
+		text-transform: uppercase;
+	}
+	.tools-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-content: center;
+		width: 100%;
+	}
+	.tools-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 33%;
+		padding-bottom: 40px;
+		h2 {
+			color: $dark-grey;
+			font-size: 0.85rem;
+			font-weight: 700;
+			letter-spacing: 0.15rem;
+			text-transform: uppercase;
+		}
+		li {
+			font-weight: 500;
+			font-size: 0.85em;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+// Process Section
+.process {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	span {
+		color: $dark-grey;
+		font-weight: 500;
+		font-size: 0.85em;
+		line-height: 1.25rem;
+		font-style: italic;
+	}
+	h1 {
+		color: $deep-green;
+		font-size: 2.5rem;
+		font-weight: 700;
+		letter-spacing: 0.25rem;
+		text-transform: uppercase;
+	}
+	.process-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+	}
+	.process-card {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 40px 0;
+		width: 100%;
+		h2 {
+			margin-bottom: 0px;
+			padding-bottom: 5px;
+			color: $dark-grey;
+			font-size: 0.85rem;
+			font-weight: 700;
+			letter-spacing: 0.15rem;
+			text-transform: uppercase;
+			border-bottom: 2px solid $dark-grey;
+		}
+		h3 {
+			margin-top: 20px;
+			color: $dark-grey;
+			font-size: 0.75rem;
+			font-weight: 700;
+			letter-spacing: 0.1rem;
+			text-transform: uppercase;
+		}
+		p {
+			margin-bottom: 0px;
+			font-weight: 500;
+			font-size: 0.85rem;
+			line-height: 1.25rem;
+		}
+		.process-text {
+			width: 60%;
+		}
+		.process-image {
+			width: 30%;
+		}
+		.gif_player {
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+// Footer
+.footer {
+	padding: 25px 0;
+	color: $dark-grey;
+	font-size: 0.6rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
