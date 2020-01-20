@@ -34,7 +34,7 @@ class Tools extends React.Component {
 								</ul>
 							</div>
 							<div className="tools-card">
-								<h2>For the Rolls</h2>
+								<h2>For the Summer Rolls</h2>
 								<ul>
 									<li>~3x Packs of Rice Paper Wrappers</li>
 									<li>2lbs. of Firm/Extra Firm Tofu</li>
@@ -46,7 +46,7 @@ class Tools extends React.Component {
 								</ul>
 							</div>
 							<div className="tools-card">
-								<h2>For the Sauce</h2>
+								<h2>For the Peanut Sauce</h2>
 								<ul>
 									<li>
 										1x 1lb. Natural Peanut Butter, no salt
